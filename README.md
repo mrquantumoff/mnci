@@ -3,5 +3,5 @@
 ## Installation
 Run 
 ```shell
-curl -fssLO https://github.com/mrquantumoff/mnci/raw/master/install.sh && sh ./install.sh && rm ./install.sh
+curl -fssLO https://github.com/mrquantumoff/mnci/raw/master/install.sh && bash ./install.sh && rm ./install.sh
 ```
