@@ -9,7 +9,7 @@ curl -fssL -o ~/.config/nvim/init.vim https://gist.github.com/mrquantumoff/cc4a9
 nvim +PlugInstall
 nvim +OmniSharpInstall +CocInstall coc-rust-analyzer 
 export rustanalyzerlocation=$(which rust-analyzer)
-rsanc="{rust-analyzer.server.path: \"$rustanalyzerlocation\"}"
+rsanc="{\"rust-analyzer.server.path\": \"$rustanalyzerlocation\"}"
 echo $rsanc
 echo $rsanc >> ~/.config/nvim/coc-settings.json
 
