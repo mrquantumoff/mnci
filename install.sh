@@ -11,7 +11,7 @@ nvim +OmniSharpInstall +CocInstall coc-rust-analyzer
 export rustanalyzerlocation=$(which rust-analyzer)
 rsanc="{\"rust-analyzer.server.path\": \"$rustanalyzerlocation\"}"
 echo $rsanc
-echo $rsanc >> ~/.config/nvim/coc-settings.json
+echo $rsanc > ~/.config/nvim/coc-settings.json
 
 ln -s ~/.config/nvim/init.vim ~/.nvimrc
 echo "NeoVim and config installed!"
